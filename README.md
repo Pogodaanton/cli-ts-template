@@ -24,14 +24,14 @@ You can assign a custom name to the executable by editing package.json:
 
 In the project directory, you can run:
 
-### `yarn [insert-app-name]`
+### `npm run [insert-app-name]`
 
 Executes the CLI through `ts-node`, so that building isn't needed. It is advised to use this script during development if you need to try out the CLI.
 
-### `yarn build`
+### `npm run build`
 
 Compiles TypeScript code into `./dist`. The generated files are ready to be packaged and shipped.
 
-### `yarn lint`
+### `npm run lint`
 
 Run ESLint through your `.ts` and `.js` files.
